@@ -1,0 +1,114 @@
+.Nav {
+  width: 200px;
+  height: 300px;
+  padding: 50px;
+  background-color: #ffffff;
+  border-radius: 7%;
+  opacity: 0.8;
+  padding-top: 150px;
+  text-align: center;
+  position: absolute;
+  top: 75px;
+  left: 20px;
+}
+a:link {
+  text-decoration: none;
+  font-family: "EB Garamond", serif;
+  font-size: 150%;
+}
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+.headP {
+  position: absolute;
+  top: 30px;
+  left: 400px;
+  width: 700px;
+  padding-bottom: 10px;
+  font-family: "EB Garamond", serif;
+  font-size: 200%;
+  text-align: center;
+  border-bottom: 3px solid white;
+}
+.comingsoon {
+  background-color: #ffffff;
+  position: absolute;
+  left: 450px;
+  top: 100px;
+  text-align: center;
+  width: 400px;
+  padding: 200px;
+  opacity: 0.8;
+  font-size: 400%;
+  color: gray;
+  font-family: "EB Garamond", serif;
+}
+.Profile {
+  position: absolute;
+  top: 350px;
+  left: 425px;
+  width: 400px;
+  height: 350px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 120%;
+  text-transform: capitalize;
+}
+#image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: -230px;
+  border: 3px solid #ffffff;
+}
+.headC {
+  position: absolute;
+  top: 100px;
+  left: 800px;
+  font-family: "EB Garamond", serif;
+  font-size: 150%;
+}
+.Company {
+  position: absolute;
+  top: 150px;
+  left: 850px;
+  width: 300px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 120%;
+  text-transform: capitalize;
+  height: 200px;
+}
+.headA {
+  position: absolute;
+  top: 350px;
+  left: 800px;
+  font-family: "EB Garamond", serif;
+  font-size: 150%;
+}
+.Address {
+  position: absolute;
+  top: 400px;
+  left: 850px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 120%;
+  width: 300px;
+  height: 200px;
+  text-transform: capitalize;
+}
+.vLine {
+  border-left: 3px solid white;
+  position: absolute;
+  height: 500px;
+  top: 85px;
+  left: 750px;
+}

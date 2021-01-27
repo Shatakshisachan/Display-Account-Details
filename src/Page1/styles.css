@@ -1,0 +1,43 @@
+#listOfNames {
+  left: 30%;
+  overflow: auto;
+  font-family: "Josefin Sans", sans-serif;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+ul li:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 400px;
+  margin: 10px;
+  background: #a9a9a9;
+}
+.heading {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 25px;
+  opacity: 0.8;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+ul {
+  line-height: 30px;
+  list-style-type: none;
+  text-align: left;
+  font-size: 120%;
+}
+body {
+  background-image: url("https://blog.prezi.com/wp-content/uploads/2019/03/patrick-tomasso-208114-unsplash-1024x768.jpg ");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
